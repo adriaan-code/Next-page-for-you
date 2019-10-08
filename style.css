@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+	padding: 0;
+        display: block;
+	width: 1920x;
+        overflow: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(46, 47, 65);
+
+}
+
+#myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#stopka{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    top: 1000px;
+    width: 1900px;
+    height: 300px;
+    background-color: rgb(39, 40, 51);
+    
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+.onas{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    background: transparent;
+    border: none;
+    width: 225px;
+    height: 70px;
+    font-size: 35px;
+    text-align: center; 
+    color: white;
+    top: 55%;
+    left: 25%;
+    cursor: pointer;
+    outline-style: solid;
+    transition: all 1s;
+}
+
+.onas:hover{
+    transform:translateY(-10px);
+    background: white;
+    color: rgb(46, 47, 65);
+}
+
+#info{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    top: 40px;
+    left: 30px;
+    font-size: 20px;
+}
+
+#ulek{
+    position: absolute;
+    top: 40px;
+    left: 1100px;
+    font-size: 20px
+}
+
+.ct{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    background: transparent;
+    border: none;
+    width: 225px;
+    height: 70px;
+    font-size: 35px;
+    text-align: center; 
+    color: white;
+    top: 55%;
+    left: 45%;
+    cursor: pointer;
+    outline-style: solid;
+    transition: all 1s;
+}
+
+.ct:hover{
+    transform:translateY(-10px);
+    background: white;
+    color: rgb(46, 47, 65);
+}
+
+.co{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    background: transparent;
+    border: none;
+    width: 225px;
+    height: 70px;
+    font-size: 35px;
+    text-align: center; 
+    color: white;
+    top: 55%;
+    left: 65%;
+    cursor: pointer;
+    outline-style: solid;
+    transition: all 1s;
+}
+
+.co:hover{
+    transform:translateY(-10px);
+    background: white;
+    color: rgb(46, 47, 65);
+}
+
+#logos{
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    width: 450px;
+    height: 450px;
+}
+
+#copy{
+    position: fixed;
+    width: 1920px;
+    top: 95.5%;
+    height: 35px;
+    padding-top: 10px;
+    text-align: center; 
+    font-family: 'Oswald', sans-serif;
+    color: rgb(39, 40, 51);
+    background-color: white;
+    opacity: 0.8;
+}
+
+#menu{
+	background-color: white;
+	color: #ffffff;
+    padding: 8px;
+    text-align: center;
+    opacity: 0.8;
+	
+}
+
+.option
+{
+    float: left;
+	min-width: 50px;
+    height: 25px;
+    background: transparent;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(46, 47, 65);
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted rgb(39, 40, 51);
+    opacity: 0.8;
+    transition: all 0.7s;
+
+}
+
+.option:hover
+{
+    background: rgb(46, 47, 65);
+    color: white;
+	cursor: pointer;
+}
+
+#gora{
+    position: absolute;
+    bottom:-322px;
+    right:0;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: rgb(39, 40, 51);
+    border: none;
+}
+#gora:hover{
+    cursor: pointer;
+    content: "Do góry";
+}
